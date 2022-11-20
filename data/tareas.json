@@ -1,0 +1,14 @@
+[
+{
+"titulo": "Repasar JS",	
+"estado": "en proceso"
+},
+{
+"titulo": "Leer apuntes",	
+"estado": "pendiente"
+},
+{
+"titulo": "Hacer TP",	
+"estado": "terminado"	
+}
+]
