@@ -16,6 +16,8 @@ const arrayJSON = JSON.parse(dataArray);
 
 //console.log(arrayJSON);
 
+var myMessage = "Las acciones disponibles son: listar";
+
 arrayJSON.forEach(element => {
     console.log(element);
     
@@ -40,12 +42,10 @@ if (appArgs === "listar")
 
 if (appArgs === undefined)
 {
-console.log("Atención - Tienes que pasar una acción" + "\n" + 
-            "Las acciones disponibles son:  listar");
+console.log("Atención - Tienes que pasar una acción. \n" + myMessage);
 }
 
 if (appArgs != "listar" && appArgs != "" && appArgs != undefined) 
 {
-console.log("No entiendo qué quieres hacer"+ "\n" + 
-"Las acciones disponibles son: listar");
+console.log("No entiendo qué quieres hacer. \n" + myMessage);
 }
